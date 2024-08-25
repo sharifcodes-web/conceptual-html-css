@@ -1,3 +1,44 @@
-h1{
-    color: red
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+.hero{
+    background-image:url(/the\ cow.jpg ) ;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+}
+.hero h1{
+    color: azure;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive;padding: 60px;
+    word-spacing: 40px;
+    word-wrap: 20pxpx;
+}
+.artical{
+    width: 80%;
+    margin: 60px auto;
+    
+    border-width: 15px;
+    border-color: yellow solid;
+    border-style: solid;
+    padding: 20px;  
+    background-color: rgb(4, 110, 110);
+}
+.artical h1{
+    text-align: center;
+    border: 1px;
+    border-color: chartreuse;
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+}
+.artical p .imp{
+    font-size: 2em ;
 }
